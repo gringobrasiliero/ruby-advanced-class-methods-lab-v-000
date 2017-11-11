@@ -16,10 +16,6 @@ song.name=name
 @@all << name
 end
 
-def self.create(name)
-    person = self.new
-    person.name = name
-    @@all << person
-  end
+
 
 end
