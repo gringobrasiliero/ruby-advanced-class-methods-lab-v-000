@@ -51,8 +51,16 @@ song.artist_name = artist_name
 song
 end
 
+def self.create_by_name(filename)
+new_arr = filename.split(" - ")
+artist_name = new_arr[0]
+song_name = new_arr[1].gsub(".mp3", "")
 
-
+song = self.create
+song.name = song_name
+song.artist_name = artist_name
+song
+end
 
 
 
