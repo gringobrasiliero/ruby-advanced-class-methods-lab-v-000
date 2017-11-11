@@ -47,7 +47,7 @@ song_name = new_arr[1].gsub(".mp3", "")
 
 song = self.new
 song.name = song_name
-artist.name = artist_name
+song.artist.name = artist_name
 song
 end
 
