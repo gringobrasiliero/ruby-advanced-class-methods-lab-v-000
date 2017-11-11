@@ -45,9 +45,10 @@ new_arr = song.split(" - ")
 artist_name = new_arr[0]
 song_name = new_arr[1].gsub(".mp3", "")
 
+song = self.create
 song.name = song_name
 artist.name = artist_name
-
+song
 end
 
 
